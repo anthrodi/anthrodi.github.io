@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
-  <title>MakeLab Holiday Cards - Anth Rodi</title>
-  <meta name="description" content="Anth Rodi is a Toronto-based designer and game artist.">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anthony Rodi is a Toronto-based designer and game artist.">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game Cases Re-imagined - Anthony Rodi</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -13,11 +13,11 @@
 
   <nav class="navRow">
     <ul>
-      <li id="navName"><a href="http://anthrodi.me">Anth Rodi</a></li>
-      <li><a href="http://anthrodi.me">Work</a></li>
+      <li id="navName"><a href="http://anthrodi.com">Anthony Rodi</a></li>
+      <li><a href="http://anthrodi.com">Work</a></li>
       <li><a href="info">Info</a></li>
-      <li><a href="anth-rodi-cv-2018.pdf">Resume</a></li>
-      <li><a href="contact">Contact</a></li>
+      <li><a href="AR_CV_2019.pdf">Resume</a></li>
+      <li><a href="mailto:anthrodi+work@gmail.com">Contact</a></li>
     </ul>
   </nav>
 
@@ -25,29 +25,28 @@
 
 <div class="centerContent">
 
-  <div class="featureImage fade-in"><img src="img/makelab-3-672.png"></img></div>
-  <p class="caption">Holiday card and Brand Ambassador gift designs for <a href="https://makelab.ca" target="_blank">MakeLab</a>.</p>
-  <p class="caption" style="font-style:italic;">Client: MakeLab</p>
-  <div class="featureImage fade-in"><img src="img/makelab-1-672.png"></img></div>
-  <div class="featureImage fade-in"><img src="img/makelab-2-672.png"></img></div>
-  <p class="tags">2017, Print<p>
+  <div class="featureImage fade-in"><img src="img/gamecases-2-672.png"></img></div>
+  <p class="caption">Re-imagining physical game cases for some of my favourite digital games of 2018.</p>
+  <p class="caption" style="font-style:italic;">Self-directed project</p>
+  <div class="featureImage fade-in"><img src="img/gamecases-1-672.gif"></img></div>
+  <div class="featureImage fade-in"><img src="img/gamecases-3-672.png"></img></div>
+  <p class="tags">2018, Print<p>
 
 </div>
 
 
-  <footer class="socialRow">
-    <div class="centerContent">
-      <h1 style="text-align: center; margin-top:2em; opacity: 0.9;">follow me</h1>
-      <ul>
-        <li class="socialIco"><a href="https://dribbble.com/anthrodi"><img alt="link to Dribbble portfolio." src="img/dribbble.svg"></img></a></li>
-        <li class="socialIco"><a href="https://behance.net/anthrodi"><img alt="link to Behance portfolio." src="img/behance.svg"></img></a></li>
-        <li class="socialIco"><a href="https://www.linkedin.com/in/anthrodi"><img alt="link to LinkedIn page." src="img/linkedin.svg"></img></a></li>
-        <li class="socialIco"><a href="https://anthrodi.itch.io"><img alt="link to Itch IO games." src="img/itchio.svg"></img></a></li>
-        <li class="socialIco"><a href="https://society6.com/anthrodi"><img alt="link to Society6 shop." src="img/society6.svg"></img></a></li>
-      </ul>
-      <p class="footerCopyright">Made with ❤️ <br> © 2018 Anth Rodi</p>
-    </div>
-  </footer>
+<footer class="socialRow">
+  <div class="centerContent">
+    <h1 style="text-align: center; margin-top:2em; opacity: 0.9;">follow me</h1>
+    <ul>
+      <li class="socialIco"><a href="https://dribbble.com/anthrodi"><img alt="link to Dribbble portfolio." src="img/dribbble.svg"></img></a></li>
+      <li class="socialIco"><a href="https://behance.net/anthrodi"><img alt="link to Behance portfolio." src="img/behance.svg"></img></a></li>
+      <li class="socialIco"><a href="https://anthrodi.itch.io"><img alt="link to Itch IO games." src="img/itchio.svg"></img></a></li>
+      <li class="socialIco"><a href="https://society6.com/anthrodi"><img alt="link to Society6 shop." src="img/society6.svg"></img></a></li>
+    </ul>
+    <p class="footerCopyright">Made with ❤️ <br> © 2019 Anthony Rodi</p>
+  </div>
+</footer>
 
 </body>
 </html>
