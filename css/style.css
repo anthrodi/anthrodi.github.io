@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto');
+
+
+
+h1, h2, h3, h4 {
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0;
+-webkit-margin-end: 0;
+}
+
+body, html, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: rgba(0,0,0,0.87);
+}
+
+p {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+h4 {
+  line-height: 24px;
+  margin: 0;
+  padding: 5px 0 5px 0;
+}
+
+h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 48px;
+}
+
+a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.navRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+
+  font-size: 1.1em;
+  background-color: #ffffff;
+  padding: 3em 0 1.5em 0;
+}
+
+.navRow ul {
+  display: flex;
+  flex-basis: 60%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  justify-content: center;
+}
+
+.navRow #navName {
+  flex: 2;
+  min-width: 100px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.navRow li {
+  flex: 1;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.navRow a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+.navRow a:hover {
+  color: #2196F3;
+}
+
+.clear {
+  width: 100%;
+  margin: 4em 0;
+}
+
+.centerContent {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.portfolioGrid {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.folioThumb {
+  width: 256px;
+  height: 144px;
+  margin: 10px;
+  background-color: lightgrey;
+
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+.folioThumb:hover {
+  opacity: 0.5;
+  cursor: pointer;
+
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+.folioThumb img {
+  width: 100%;
+  height: inherit;
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.socialRow ul {
+  list-style: none;
+  display: flex;
+  margin: 2em auto;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.socialRow li {
+  display: flex;
+}
+
+.socialIco {
+  flex:1;
+  opacity: 0.2;
+}
+
+.socialIco img {
+  height: 80%;
+}
+
+.socialIco:hover {
+  opacity: 0.4;
+}
+
+.footerCopyright {
+  font-size: 0.625rem;
+  text-align: center;
+  opacity: 0.8;
+  margin: 0 0 4em 0;
+  text-transform: uppercase;
+}
+
+.featureImage {
+  max-width: 672px;
+  max-height: 378px;
+  width: 100%;
+  height: inherit;
+  margin: 2em auto;
+}
+
+.featureImage img {
+  width: 100%;
+}
+
+.caption {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tags {
+  margin: 0 auto;
+  color: #ccc;
+  text-align: center;
+  font-size: 12px;
+}
+
+.jobInfo {
+  text-align: center;
+}
+
+.featuresInfo {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.jobInfo a {
+  color: #000;
+  text-decoration: none;
+}
+
+.jobInfo a:hover {
+  color: #2196F3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.contactContainer {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contactMe {
+  margin: 50px 0;
+  padding: 2em;
+  border: 4px solid #000;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#contactMe h2, h4{
+  margin-bottom: 1em;
+}
+
+#contactMe input[type="text"],
+#contactMe input[type="email"],
+#contactMe textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contactMe textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#contactSubmit {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #000;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#contactSubmit:hover {
+  background: #333;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contactMe input:focus,
+#contactMe textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+
+fieldset {
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-before: 0;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+  -webkit-padding-after: 0;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+  .navRow {
+    width: 100%;
+    position: static;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .navRow ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navRow #navName {
+    flex: 1;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .navRow li {
+    flex: 1;
+    border-bottom: 1px solid lightgrey;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 0.9em;
+  }
+
+  .clear {
+    margin: 2em 0;
+  }
+
+  .navRow li:hover {
+    background-color: #f4f4f4;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+  }
+
+  .navRow ul li:hover > a {
+    color: #000;
+    opacity: 0.7;
+  }
+
+  .socialIco img {
+    height: 60%;
+  }
+
+  .folioThumb {
+    min-width: 256px;
+    min-height: 144px;
+    margin: 10px 0;
+  }
+
+  .featureImage {
+    width: 100%;
+  }
+
+  .featureImage img {
+    width: 100%;
+  }
+
+  .myFace {
+    display: none;
+  }
+
+}

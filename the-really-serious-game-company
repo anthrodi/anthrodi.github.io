@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>The Really Serious Game Company - Anth Rodi</title>
+  <meta name="description" content="Anth Rodi is a Toronto-based designer and game artist.">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navRow">
+    <ul>
+      <li id="navName"><a href="http://anthrodi.me">Anth Rodi</a></li>
+      <li><a href="http://anthrodi.me">Work</a></li>
+      <li><a href="info">Info</a></li>
+      <li><a href="anth-rodi-cv-2018.pdf">Resume</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+<div class="clear"></div>
+
+<div class="centerContent">
+
+  <div class="featureImage fade-in"><img src="img/trsgc-1-672.png"></img></div>
+  <p class="caption">Logo design for <a href="http://thereallyseriousgamecompany.com/" target="_blank">The Really Serious Game Company.</a></p>
+  <p class="caption" style="font-style:italic;">Client: The Really Serious Game Company</p>
+  <div class="featureImage fade-in"><img src="img/trsgc-3-672.png"></img></div>
+  <div class="featureImage fade-in"><img src="img/trsgc-2-672.png"></img></div>
+  <p class="tags">2017, Branding<p>
+
+</div>
+
+
+  <footer class="socialRow">
+    <div class="centerContent">
+      <h1 style="text-align: center; margin-top:2em; opacity: 0.9;">follow me</h1>
+      <ul>
+        <li class="socialIco"><a href="https://dribbble.com/anthrodi"><img alt="link to Dribbble portfolio." src="img/dribbble.svg"></img></a></li>
+        <li class="socialIco"><a href="https://behance.net/anthrodi"><img alt="link to Behance portfolio." src="img/behance.svg"></img></a></li>
+        <li class="socialIco"><a href="https://www.linkedin.com/in/anthrodi"><img alt="link to LinkedIn page." src="img/linkedin.svg"></img></a></li>
+        <li class="socialIco"><a href="https://anthrodi.itch.io"><img alt="link to Itch IO games." src="img/itchio.svg"></img></a></li>
+        <li class="socialIco"><a href="https://society6.com/anthrodi"><img alt="link to Society6 shop." src="img/society6.svg"></img></a></li>
+      </ul>
+      <p class="footerCopyright">Made with ❤️ <br> © 2018 Anth Rodi</p>
+    </div>
+  </footer>
+
+</body>
+</html>
