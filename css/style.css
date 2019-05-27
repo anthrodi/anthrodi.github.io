@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto+Mono&display=swap');
 
 
 h1, h2, h3, h4 {
@@ -18,12 +17,12 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   color: rgba(0,0,0,0.87);
 }
 
 p {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -31,7 +30,7 @@ p {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
 }
 
 h4 {
@@ -41,14 +40,13 @@ h4 {
 }
 
 h1 {
-  font-weight: 400;
   font-style: normal;
-  font-size: 45px;
+  font-size: 35px;
   line-height: 48px;
+  color: #000;
 }
 
 a {
-  color: #2196F3;
   text-decoration: none;
 }
 
@@ -68,7 +66,7 @@ a {
 .navRow ul {
   display: flex;
   flex-basis: 60%;
-  max-width: 600px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   list-style: none;
@@ -77,8 +75,10 @@ a {
 
 .navRow #navName {
   flex: 2;
-  min-width: 100px;
+  min-width: 140px;
   font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
   text-align: left;
 }
 
@@ -94,7 +94,7 @@ a {
 }
 
 .navRow a:hover {
-  color: #2196F3;
+  color: #848484;
 }
 
 .clear {
@@ -173,15 +173,12 @@ a {
   opacity: 0.2;
 }
 
-.socialIco img {
-  height: 80%;
-}
-
 .socialIco:hover {
   opacity: 0.4;
 }
 
 .footerCopyright {
+  font-family: 'Roboto Mono';
   font-size: 0.625rem;
   text-align: center;
   opacity: 0.8;
@@ -211,6 +208,7 @@ a {
   color: #ccc;
   text-align: center;
   font-size: 12px;
+  font-family: 'Roboto Mono', Arial, sans-serif;
 }
 
 .jobInfo {
@@ -270,70 +268,6 @@ a {
   padding: 10px;
 }
 
-#contactMe textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
-  font-family: 'Open Sans', Arial, sans-serif;
-}
-
-#contactSubmit {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #000;
-  color: #fff;
-  margin: 0 0 5px;
-  padding: 20px;
-  font-size: 15px;
-}
-
-#contactSubmit:hover {
-  background: #333;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#contactMe input:focus,
-#contactMe textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
-}
-
-::-webkit-input-placeholder {
-  color: #888;
-}
-
-:-moz-placeholder {
-  color: #888;
-}
-
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
-}
-
-
-fieldset {
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-  -webkit-padding-before: 0;
-  -webkit-padding-start: 0;
-  -webkit-padding-end: 0;
-  -webkit-padding-after: 0;
-}
-
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-}
 
 @media only screen and (max-width: 600px) {
 
